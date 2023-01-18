@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+/*Registration form*/
+/*-----------------*/
+.registration{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin: 40px;
+    height: 380px;
+}
+.logo_png{
+    margin: 10px;
+}
+.login_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aqua;
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+
+}
+.input .btn{
+    width: 250px;
+}
+.OR{
+
+}
+.log_facebook{
+
+}
+/**/
