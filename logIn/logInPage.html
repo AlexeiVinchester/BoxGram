@@ -4,10 +4,10 @@
         <meta charset="utf-8">
         <meta name="author" content="AlexBoxser">
         <meta name="generator" content="VSC">
-        <meta name="description" content="Registration form for Boxgram">
-        <title>Boxgram Registration Page</title>
+        <meta name="description" content="logIn form for Boxgram">
+        <title>Boxgram Login Page</title>
         <link rel="icon" href="..\assets\icon_box.png">
-        <link rel="stylesheet" href="registrationStyles.css">
+        <link rel="stylesheet" href="logInStyles.css">
         <script src="..\validationLoginForm\loginValidation.js"></script>
     </head>
 
@@ -17,19 +17,29 @@
                 <div class="logo_png">
                     <img src="..\assets\Boxgram.png" alt="instagram" style="width: 170px;">
                 </div>
-                <p class="invitation">
-                    Sign up to see photos and videos from your friends
-                </p>
                 <form class="login_form" onsubmit="return loginEmailValidation()" method="post">
                     <input id="login" type="text" placeholder="Phone number or email" class="input" >
-                    <input id="full_name" type="text" placeholder="Full Name" class="input" >
-                    <input id="username" type="text" placeholder="UserName" class="input" >
                     <input id="password" type="text" placeholder="Password" class="input" >
-                    <input type="submit" value="Sign Up" class="log_btn">
+                    <input type="submit" value="Log In" class="log_btn">
                 </form>
+                <div class="OR">
+                    <div>
+                        <p>OR</p>
+                    </div>
+                </div>
+                <div class="log_facebook">
+                    <input type="image" class="fcb_png" src="..\assets\facebook.png" alt="facebook">
+                    <div class="log_in_fcb_text">
+                        <a href="#">Log in with Facebook</a>
+                    </div>
+                    
+                </div>
+                <div class="forgot_pwd">
+                    <a href="#">Forgot password?</a>
+                </div>
             </div>
             <div class="sign_up_form">
-                <p>Have an account? <a href="#">Log In</a></p>
+                <p>Don't have an account? <a href="#">Sign up</a></p>
             </div>
         </div>
 
