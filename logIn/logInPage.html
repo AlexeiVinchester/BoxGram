@@ -8,7 +8,7 @@
         <title>Boxgram Login Page</title>
         <link rel="icon" href="..\assets\icon_box.png">
         <link rel="stylesheet" href="logInStyles.css">
-        <script src="..\validationLoginForm\loginValidation.js"></script>
+        <script src="..\validationLoginForm\validatorLoginForm.js"></script>
     </head>
 
     <body>
@@ -17,7 +17,7 @@
                 <div class="logo_png">
                     <img src="..\assets\Boxgram.png" alt="instagram" style="width: 170px;">
                 </div>
-                <form class="login_form" onsubmit="return loginEmailValidation()" method="post">
+                <form class="login_form" onsubmit="return validator()" method="post">
                     <input id="login" type="text" placeholder="Phone number or email" class="input" >
                     <input id="password" type="text" placeholder="Password" class="input" >
                     <input type="submit" value="Log In" class="log_btn">
