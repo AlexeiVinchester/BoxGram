@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="AlexBoxser" />
+    <meta name="generator" content="VSC" />
+    <meta name="description" content="logIn form for Boxgram" />
+    <title>Boxgram Login Page</title>
+    <link rel="icon" href="..\assets\icon_box.png" />
+    <link rel="stylesheet" href="logInStyles.css" />
+  
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="registration">
+        <div class="logo_png">
+          <img
+            src="..\assets\Boxgram.png"
+            alt="instagram"
+            style="width: 170px"
+          />
+        </div>
+        <form class="login_form" method="post" id="loginForm">
+          <input id="login" type="text" placeholder="Phone number or email" class="login"/>
+          <input id="password" type="text" placeholder="Password" class="password"/>
+          <input type="submit" value="Log In" class="log_btn" />
+        </form>
+        <script src="..\validationLoginForm\validatorLoginForm.js"></script>
+        <div class="OR">
+          <div>
+            <p>OR</p>
+          </div>
+        </div>
+        <div class="log_facebook">
+          <input
+            type="image"
+            class="fcb_png"
+            src="..\assets\facebook.png"
+            alt="facebook"
+          />
+          <div class="log_in_fcb_text">
+            <a href="#">Log in with Facebook</a>
+          </div>
+        </div>
+        <div class="forgot_pwd">
+          <a href="#">Forgot password?</a>
+        </div>
+      </div>
+      <div class="sign_up_form">
+        <p>Don't have an account? <a href="#">Sign up</a></p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="info_links">
+        <div><a href="#">Information</a></div>
+        <div><a href="#">About</a></div>
+        <div><a href="#">Blog</a></div>
+        <div><a href="#">Help</a></div>
+        <div><a href="#">Locations</a></div>
+        <div><a href="#">Top Accounts</a></div>
+        <div><a href="#">Contacts</a></div>
+      </div>
+      <div class="copyright">© 2023 Boxgram from Boxclub</div>
+    </div>
+  </body>
+</html>

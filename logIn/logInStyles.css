@@ -37,7 +37,7 @@ body{
     width: 300px;
 
 }
-.input{
+.login, .password{
     width: 100%;
     padding: 8px;
     margin-top: 10px;
