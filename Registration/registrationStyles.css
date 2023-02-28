@@ -46,7 +46,7 @@ body{
     border: 1px solid transparent;
     background-color: #f2f2f2;
 }
-.log_btn{
+.log_button{
     width: 100%;
     padding: 8px;
     margin-top: 10px;
@@ -57,12 +57,7 @@ body{
     cursor: pointer;
 
 }
-.OR{
-    margin-top: 10px;
-    font-size: 13px;
-    text-align: center;
-    color: #838282;
-}
+
 .line{
     top: 0.5;
     height: 1px;
@@ -73,22 +68,7 @@ body{
     display: flex;
     align-items: center;
 }
-.fcb_png{
-    width: 15px;
-    margin: 7px;
-}
-.log_in_fcb_text a{
-    color: rgb(54, 71, 102);
-    text-decoration: none;
-}
-.forgot_pwd{
-    margin: 20px;
-}
-.forgot_pwd a{
-    margin: 20px;
-    color: rgb(54, 71, 102);
-    text-decoration: none;
-}
+
 .sign_up_form{
     background-color: white;
     color: rgb(54, 71, 102);
