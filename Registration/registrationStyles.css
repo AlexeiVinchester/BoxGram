@@ -28,7 +28,7 @@ body{
 .logo_png{
     margin-top: 40px;
 }
-.login_form{
+.loginForm{
     display: flex;
     flex-direction: column;
     justify-content: center;
