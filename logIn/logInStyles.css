@@ -45,7 +45,7 @@ body{
     border: 1px solid transparent;
     background-color: #f2f2f2;
 }
-.log_btn{
+.log_button{
     width: 100%;
     padding: 8px;
     margin-top: 10px;
@@ -56,7 +56,7 @@ body{
     cursor: pointer;
 
 }
-.OR{
+.or-text-wrapper{
     margin-top: 10px;
     font-size: 13px;
     text-align: center;
@@ -72,7 +72,7 @@ body{
     display: flex;
     align-items: center;
 }
-.fcb_png{
+.facebook_png{
     width: 15px;
     margin: 7px;
 }
@@ -80,10 +80,10 @@ body{
     color: rgb(54, 71, 102);
     text-decoration: none;
 }
-.forgot_pwd{
+.forgot_password{
     margin: 20px;
 }
-.forgot_pwd a{
+.forgot_password a{
     margin: 20px;
     color: rgb(54, 71, 102);
     text-decoration: none;
