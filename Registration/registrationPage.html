@@ -7,7 +7,7 @@
         <meta name="description" content="Registration form for Boxgram">
         <title>Boxgram Login Page</title>
         <link rel="icon" href="..\assets\icon_box.png">
-        <link rel="stylesheet" href="logInStyles.css">
+        <link rel="stylesheet" href="registrationStyles.css">
     </head>
 
     <body>
@@ -16,29 +16,16 @@
                 <div class="logo_png">
                     <img src="..\assets\Boxgram.png" alt="instagram" style="width: 170px;">
                 </div>
-                <form class="login_form">
-                    <input type="text" placeholder="Phone number or email" class="input">
-                    <input type="text" placeholder="Password" class="input">
-                    <input type="button" value="Log In" class="log_button">
+                <form class="loginForm" id="loginForm">
+                    <input type="text" id="login" placeholder="Phone number or email" class="input">
+                    <input type="text" id="userName" placeholder="Username" class="input">
+                    <input type="text" id="password" placeholder="Password" class="input">
+                    <input type="submit" value="Log In" class="log_button">
                 </form>
-                <div class="or-text-wrapper">
-                    <div>
-                        <p>OR</p>
-                    </div>
-                </div>
-                <div class="log_facebook">
-                    <input type="image" class="facebook_png" src="..\assets\facebook.png" alt="facebook">
-                    <div class="log_in_fcb_text">
-                        <a href="#">Log in with Facebook</a>
-                    </div>
-                    
-                </div>
-                <div class="forgot_password">
-                    <a href="#">Forgot password?</a>
-                </div>
+                <script src="../validationSignUpForm/validationSignUpForm.js"></script>
             </div>
             <div class="sign_up_form">
-                <p>Don't have an account? <a href="../registration/registrationPage.html">Sign up</a></p>
+                <p>Have an account? <a href="../logIn/logInPage.html">Log in</a></p>
             </div>
         </div>
 
@@ -59,4 +46,3 @@
 
     </body>
 </html>
->>>>>>> registrationValidationBranch

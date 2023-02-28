@@ -28,16 +28,17 @@ body{
 .logo_png{
     margin-top: 40px;
 }
-.login_form{
+.loginForm{
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 10px;
+    padding-bottom: 40px;
     margin-top: 10px;
     width: 300px;
 
 }
-.login, .password{
+.input{
     width: 100%;
     padding: 8px;
     margin-top: 10px;
@@ -56,12 +57,7 @@ body{
     cursor: pointer;
 
 }
-.or-text-wrapper{
-    margin-top: 10px;
-    font-size: 13px;
-    text-align: center;
-    color: #838282;
-}
+
 .line{
     top: 0.5;
     height: 1px;
@@ -72,22 +68,7 @@ body{
     display: flex;
     align-items: center;
 }
-.facebook_png{
-    width: 15px;
-    margin: 7px;
-}
-.log_in_fcb_text a{
-    color: rgb(54, 71, 102);
-    text-decoration: none;
-}
-.forgot_password{
-    margin: 20px;
-}
-.forgot_password a{
-    margin: 20px;
-    color: rgb(54, 71, 102);
-    text-decoration: none;
-}
+
 .sign_up_form{
     background-color: white;
     color: rgb(54, 71, 102);
